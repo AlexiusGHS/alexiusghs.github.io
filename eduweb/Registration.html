@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="../eduweb-master/assets/css/style2.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Registration Form</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>ID</label>
+          <input type="text" placeholder="Identification" required />
+        </div>
+
+        <div class="input-box">
+          <label>Nama</label>
+          <input type="text" placeholder="Masukan Nama" required />
+        </div>
+
+        <div class="input-box">
+            <label>Email Address</label>
+            <input type="text" placeholder="Masukan Almat Email" required />
+          </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Telepon</label>
+            <input type="number" placeholder="Masukan Nomor Telpon" required />
+          </div>
+          <div class="input-box">
+            <label>Tanggal Lahir</label>
+            <input type="date" placeholder="Masukan Tanggal Lahir" required />
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Alamat</label>
+          <input type="text" placeholder="Masukan Nama Alamat" required />
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>Pemula</option>
+                <option>Lanjutan</option>
+                <option>Menengah</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Masukkan batch Anda" required />
+          </div>
+          <div class="column">
+            <select id="program" name="program" required>
+              <option value="" disabled selected>Pilih Program</option>
+              <option value="Program Gelar Online">Program Gelar Online</option>
+              <option value="Program No-Gelar">Program No-Gelar</option>
+              <option value="Program off-Campus">Program off-Campus</option>
+              <option value="Program Hibrida Jarak Jauh">Program Hibrida Jarak Jauh</option>
+            </select>
+          </div>
+          
+        </div>
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
